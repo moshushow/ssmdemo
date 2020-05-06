@@ -37,7 +37,7 @@
 		</tr>
 	<%}else{ %>
 		<tr class="td">
-			<td style="color: red;">暂无相关数据</td>
+			<td style="color: red;">暂无相关数据!</td>
 		</tr>
 <%} %>
 	</table>
