@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="jdbcTypeForNull" value="VARCHAR" />
+		<setting name="callSettersOnNulls" value="true" />
+		<setting name="logImpl" value="STDOUT_LOGGING"/> 
+	</settings>
+
+	<!-- <mappers>
+	    数据质量核查配置
+	    <mapper resource="mybatis/mapper/bqCfProtocol-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqCfValidators-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqDataMonitor-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqFieldInfo-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqProtocolFieldStatics-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqProtocolInfo-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqSiteInfo-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqWbRules-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqWebConfig-sql.xml" />
+	    <mapper resource="mybatis/mapper/bqZipStatics-sql.xml" />
+		
+	</mappers> -->
+</configuration>
